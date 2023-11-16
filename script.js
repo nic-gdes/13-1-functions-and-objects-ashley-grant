@@ -43,7 +43,7 @@ describe() {
 }
 const chevyMalibu = new Car("Chevrolet", "Malibu", "2024");
 
-chevyMalibu.describe
+console.log(chevyMalibu.describe())
 
 
  // This is a 2024 Malibu, made by Chevrolet.
@@ -51,19 +51,13 @@ chevyMalibu.describe
 
 // Create 4 cars (with any make, model and year) and push them all to a new array called allCars.
 
-    // Create a new array called allCars.
-
     // You will need to create 4 new variables, using the const {{carname}} = new Car() syntax. {{ carname }} is just whatever variable name you'll choose.
 
+    // You can add the cars manually when creating the allCars array, or create the empty array and use .push() to add each car individually.
 
 // Write a function with a single parameter car that, when called, will console.log the Car.describe method for the car used in the parameter.
 
     // Declare the function using function {{ functionName }} (car) {};
-
-    // Inside the function's code block, simply return car.describe; so the function returns the describe phrase for the car in the parameters.
-
-
-// Create an array called allCars, that includes all of the created cars. You can use array.push() or simply create the array with the data.
 
 
 // Loop through allCars and call the function to log each car's describe method to the console one by one.
