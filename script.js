@@ -38,14 +38,12 @@ class Car {
 // Car should also include a method, .describe which simply returns "This is a YEAR MODEL, made by MAKE." replacing YEAR, MODEL and MAKE with the correct information from the Car object.
 
 describe() {
-    return("This is a " + this.year + ",made by " + this.make);
+    return("This is a " + this.year + ' ' + this.model + ", made by " + this.make);
 }
 }
 const chevyMalibu = new Car("Chevrolet", "Malibu", "2024");
 
 console.log(chevyMalibu.describe())
-
-
  // This is a 2024 Malibu, made by Chevrolet.
 
 
